@@ -12,6 +12,7 @@ html, body {
     float: left;
     background-color: #40444C;
     padding: 1% 2%;
+    color: #fff;
 }
 
 #friends-item-list {
@@ -20,19 +21,22 @@ html, body {
 
 .friend-item {
     background-color: #006383;
-    height: 300px;
+    height: 100px;
     width: 100%;
+    margin: 5% 0;
 }
 
 .friend-image {
     float: left;
-    height: 100px;
-    width: 80px;
+    height: 100%;
+    width: 30%;
     background-color: #222222;
 }
 
 .friend-desc-wrapper {
-    padding: 5px;
+    float: left;
+    width: 64%;
+    padding: 3%;
 }
 
 #main-content {
